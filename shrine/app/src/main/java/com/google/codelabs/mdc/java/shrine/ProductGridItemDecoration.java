@@ -18,6 +18,7 @@ public class ProductGridItemDecoration extends RecyclerView.ItemDecoration {
         this.smallPadding = smallPadding;
     }
 
+    /* LINEAR RECYCLER VIEW
     @Override
     public void getItemOffsets(Rect outRect, View view,
                                RecyclerView parent, RecyclerView.State state) {
@@ -25,5 +26,13 @@ public class ProductGridItemDecoration extends RecyclerView.ItemDecoration {
         outRect.right = smallPadding;
         outRect.top = largePadding;
         outRect.bottom = largePadding;
+    }
+     */
+
+    @Override
+    public void getItemOffsets(Rect outRect, View view,
+                               RecyclerView parent, RecyclerView.State state) {
+        outRect.left = smallPadding;
+        outRect.right = largePadding;
     }
 }

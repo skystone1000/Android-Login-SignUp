@@ -22,6 +22,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="48dp"
             android:layout_marginBottom="16dp"
+            android:tint="?android:attr/textColorPrimary"
             app:srcCompat="@drawable/shr_logo" />
 
         <TextView
@@ -31,10 +32,12 @@
             android:layout_marginBottom="132dp"
             android:text="@string/shr_app_name"
             android:textAllCaps="true"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.Shrine.Title" />
 
         <!-- Snippet from "Add text fields" section goes here. -->
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Shrine.TextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
@@ -48,6 +51,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Shrine.TextInputLayout"
             android:id="@+id/password_text_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,6 +74,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/next_button"
+                style="@style/Widget.Shrine.Button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -78,7 +83,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/cancel_button"
-                style="@style/Widget.MaterialComponents.Button.TextButton"
+                style="@style/Widget.Shrine.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="12dp"
