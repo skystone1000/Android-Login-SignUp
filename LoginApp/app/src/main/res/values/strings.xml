@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">IIT Bombay</string>
+
+    <!-- Login labels -->
+    <string name="shr_hint_username">Username</string>
+    <string name="shr_hint_password">Password</string>
+    <string name="shr_button_login">Login</string>
+    <string name="shr_button_signup">Sign Up</string>
+    <string name="shr_error_password">Password must contain at least 8 characters.</string>
+    <string name="error_string">Field must not be empty.</string>
+
+    <!-- Dashboard labels -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_msg">Welcome to the Dashboard. You can do some of following things by pressing the top menu:</string>
+    <string name="dashboard_recycler">DataBase</string>
+    <string name="dashboard_tasks">Events\nSchedule\nConfigure\nMy Account\nLogout</string>
+
+    <!-- Shrine backdrop menu labels -->
+    <string name="shr_event_label">Events</string>
+    <string name="shr_schedule_label">Schedule</string>
+    <string name="shr_configure_label">Configure</string>
+    <string name="shr_account_label">My Account</string>
+    <string name="shr_logout">Log Out</string>
+
+    <!-- Sign Up Labels -->
+    <string name="label_name">Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_phone">Phone Number</string>
+    <string name="label_organisation">Organisation</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="label_address">Address</string>
+    <string name="label_city">City</string>
+    <string name="label_state">State</string>
+    <string name="label_zip">ZIP</string>
+    <string name="label_save">Sign Up</string>
+
+    <!-- Verification labels -->
+    <string name="verification_title">Verification</string>
+    <string name="shr_hint_otp">OTP</string>
+    <string name="shr_button_verify">Verify</string>
+    <string name="otp_msg">Please Enter the OTP. Wait at least 1 minute for the OTP. To change the number, go back.</string>
+
+    <!-- Random -->
+    <string name="shr_filter_title">Filter</string>
+    <string name="shr_search_title">Search</string>
+    <string name="shr_product_title">Title</string>
+    <string name="shr_product_description">Secondary text</string>
+
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

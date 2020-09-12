@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "737965575517",
+    "firebase_url": "https://maps-18abd.firebaseio.com",
+    "project_id": "maps-18abd",
+    "storage_bucket": "maps-18abd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737965575517:android:db93c89d53478761876cb4",
+        "android_client_info": {
+          "package_name": "com.example.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737965575517-uaaveeevm0f5aok9atnd3s0l5ukrq8ik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiy9AJb6oMTuO-BTTm7lMsEI0a4a1vJEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737965575517-uaaveeevm0f5aok9atnd3s0l5ukrq8ik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737965575517:android:01b4730fab792190876cb4",
+        "android_client_info": {
+          "package_name": "com.loginapp.mansi_iitb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737965575517-uaaveeevm0f5aok9atnd3s0l5ukrq8ik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiy9AJb6oMTuO-BTTm7lMsEI0a4a1vJEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737965575517-uaaveeevm0f5aok9atnd3s0l5ukrq8ik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
