@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_view"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Feeds"/>
+    <item
+        android:id="@+id/paada_profile_view"
+        android:icon="@drawable/ic_baseline_chat_bubble_24"
+        android:title="Chats" />
+    <item
+        android:id="@+id/water_documentation_view"
+        android:icon="@drawable/ic_baseline_notifications_active_24"
+        android:title="Alerts" />
+    <item
+        android:id="@+id/water_intervention_view"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile" />
+</menu>

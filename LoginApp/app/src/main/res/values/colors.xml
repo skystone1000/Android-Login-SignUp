@@ -13,4 +13,8 @@
     <color name="textInputOutlineColor">#FBB8AC</color>
     <color name="toolbarIconColor">#FFFFFF</color>
     <color name="black_overlay">#66000000</color>
+
+    <color name="colorPrimary">#FFF59D</color>
+    <color name="colorPrimaryDark">#FF5252</color>
+    <color name="colorAccent">#FBC02D</color>
 </resources>
